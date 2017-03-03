@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<!-- Font Awesome embed code -->
+<script src="https://use.fontawesome.com/583a2675d5.js"></script>
+    
+<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+</head>
+
+<body  onload="randomQuote()">
+<nav class="navbar-fixed-top navbar-light bg-faded" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">A New Best Friend Animal Rescue</a>
+    </div>
+    <div class="navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="adoption.html">Adoption</a></li>
+        <li><a href="newfriend.html">Find Your New Best Friend</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<!-- Begin Carousel -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/adoptdog.jpg" style="width: 100%;height: 600px;display: block;margin: auto;">
+            </div>
+          
+            <div class="item">
+              <img src="images/housron-dog-training-rescue-ADOPTION1.jpg" style="width: 100%;height: 600px;display: block;margin: auto;">
+            </div>
+            
+            <div class="item">
+              <img src="images/howtoadopt.jpg" style="width: 100%;height: 600px;display: block;margin: auto;">
+            </div>
+          
+            <div class="item">
+              <img src="images/Shelter-Pet-Adoption.jpg" style="width: 100%;height: 600px;display: block;margin: auto;">
+            </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<!-- social media icons top section -->
+<div class="col-md-12" id="topsocialmedia">
+    <a href="#"><i class="fa fa-4x fa-facebook-official" aria-hidden="true" id="topicon"></i></a>
+    <a href="#"><i class="fa fa-4x fa-instagram" aria-hidden="true" id="topicon"></i></a> 
+    <a href="#"><i class="fa fa-4x fa-twitter-square" aria-hidden="true" id="topicon"></i></a>
+</div>
+
+<!-- Quote Section -->
+    <div class="container-fluid" id="quote-section">
+        <h1 id="quote-text"></h1>
+    </div>
+    
+<!-- Begin Latest News Section -->
+    <div class="row" class="col-md-12" id="newsspace"></div>
+    <div class="row" id="newssection">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 col-sm-12">
+        <div id="newsposttitle">
+            <h2>Major success at Royal Palm Adoption Event</h2>
+        </div>
+        <div id="newspost1">
+            <h3>Locals turned out by the dozens to meet our dogs, and 14 of our pups went home to their forever families on Saturday.</h3>
+            <h3><a href="#">Read More</a></h3>
+        </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 col-sm-12">
+        <div id="newsposttitle">
+            <h2>Vets share tips on how to keep your pets healthy in the summer heat</h2>
+        </div>
+        <div id="newspost2">
+            <h3>Summer brings heat and humidity to South Florida. Unfortunately, it also brings parasites which can be hazardous to your furry friends.</h3>
+            <h3><a href="#">Read More</a></h3>   
+        </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+
+<!-- Begin About Section -->
+    <div class="row" id="aboutbox">
+        <!--<div class="col-md-12" id="abouttitle">
+            <h2>Who We Are</h2>
+        </div> -->
+        <div class="col-md-6 col-sm-12" id="about">
+            <h3><u>Our Mission</u></h3>
+            <h3>We are a community of people who are passionate about dogs and committed to saving and changing lives. Join us today, save a life, and find your new best friend!</h3>
+        </div>
+        <div class="col-md-6 col-sm-12" id="aboutfacts">
+            <h3><u>By The Numbers</u></h3>
+            <h3>Year Founded: <span id="fact">2016</span></h3>
+            <h3>Animals Rescued: <span id="fact">225</span></h3>
+            <h3>Location: <span id="fact">West Palm Beach, FL</span></h3>
+        </div>
+    </div>
+
+<!-- Begin buttons section -->
+        <div class="row" id="buttonsection1">
+            <div id="buttonsectiontitle">
+                <h1>We Need Your Help!</h1>
+            </div>
+        <div class="row" id="buttonsection">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <h2>We are non-profit organizations that relies on donations to provide life-saving care, fostering, and adoption services to amazing canines throughout Palm Beach County. Give today and save a life.</h2>
+            </div>
+            <div class="col-md-2"></div>
+            <a href="#">
+            <div class="col-md-2" id="indexbutton1">
+                <h1>Donate</h1>
+            </div>
+            </a>
+            <div class="col-md-2"></div>
+        </div>
+        </div>
+        <div class="row" id="buttonsection2">
+            <div class="col-md-12" id="buttonsection2title">
+                <h1>Join Us and Save A Life</h1>
+            </div>
+            <div class="col-md-3 col-sm-3"></div>
+            <a href="#">
+            <div class="col-md-2 col-sm-2" id="indexbutton2">
+                <h1>Foster</h1>
+            </div>
+            </a>
+            <div class="col-md-2 col-sm-2"></div>
+            <a href="#">
+            <div class="col-md-2 col-sm-2" id="indexbutton3">
+                <h1>Adopt</h1>
+            </div>
+            </a>
+            <div class="col-md-3 col-sm-3"></div>
+        </div>
+
+    
+  <!--Begin New Dogs section -->  
+    <div class="container-fluid" id="newdogsbody">
+        <div class="col-md-12" id="newdogstitle">
+            <h1>Meet Our Newest Friends</h1>
+        </div>
+        <div class="col-md-6 col-sm-12" id="newdogs">
+            <img src="images/dogs-pembroke-welsh-corgi-400x400.jpg" style="width: 250px;height: 250px; border-radius: 100%; display: block; margin: auto;">
+            <h2 id="newdogcaption">Alfie</h2>
+            <h3 id="newdogcaption">A friendly and loving 4 year old Welsh Corgi, Alfie would be a great addition to a family with other pets and children.</h3>
+        </div>
+            
+        <div class="col-md-6 col-sm-12" id="newdogs">
+            <img src="images/seo-article-15-list-grid.jpeg" style="width: 250px;height: 250px; border-radius: 100%; display: block;margin: auto;">
+            <h2 id="newdogcaption">Jasmine</h2>
+            <h3 id="newdogcaption">Spunky and full of energy, Jasmine is a 3 year old Pomeranian who is sure to bring life and joy to her new family.</h3>
+        </div> 
+    </div>
+    <div class="container-fluid" id="newdogsbody">
+        <div class="col-md-6 col-sm-12" id="newdogs2">
+            <img src="images/92246580-lost-dog-632x475.jpg" style="width: 250px;height: 250px; border-radius: 100%; display: block;margin: auto;">
+            <h2 id="newdogcaption">Reginald</h2>
+            <h3 id="newdogcaption">An old-fashioned boy with an old-fashioned name, Reginald is the perfect companion for a low-key, quiet family.</h3>
+        </div>
+        
+        <div class="col-md-6 col-sm-12" id="newdogs2">
+            <img src="images/seo-article-29-list-grid.jpeg" style="width: 250px;height: 250px; border-radius: 100%; display: block;margin: auto;">
+            <h2 id="newdogcaption">Sheila</h2>
+            <h3 id="newdogcaption">An intelligent and tenacious 5 year old, Sheila is a small dog who loves big adventures who would be a perfect fit for a family that loves the outdoors.</h3>
+        </div>
+    </div>
+
+    
+<!-- Begin Testimonials section -->
+    <div class="container-fluid" id="testimonials">
+    <div class="row">
+        <div class="col-md-2 col-sm-12"></div>
+        <div class="col-md-4 col-sm-12" id="testimonialimg1">
+            <img src="images/159955114.jpg" style="width: 300px;height: 300px; border-radius: 100%; display: block;margin: auto;">
+        </div>
+        <div class="col-md-4 col-sm-12" id="testimonialtext1">
+            <h2>"Adopting Buster from <em>A New Best Friend</em> is by far one of the best decisions I've ever made." --Molly H.</h2>
+        </div>
+        <div class="col-md-2 col-sm-12"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-sm-12"></div>
+        <div class="col-md-4 col-sm-12" id="testimonialimg2">
+            <img src="images/man-dogs-best-friend.jpg" style="width: 300px;height: 300px; border-radius: 100%; display: block;margin: auto;">
+        </div>
+        <div class="col-md-4 col-sm-12" id="testimonialtext2">
+            <h2>"Ever since I took in Clover, I've been happier, more outgoing, and really and truly having the time of my life. He keeps me active, and I'm always meeting people when I'm out walking him. All my neighbors love him. We keep each other company, and he makes my house feel more like a home." --Tim G.</h2>
+        </div>
+        <div class="col-md-2 col-sm-12"></div>
+    </div>
+    </div>
+    
+    
+<!-- Begin Footer -->
+    <footer class="container-fluid" id="footsection2">
+        <div class="col-md-6 col-sm-12">
+            <h3>&copy; 2016 Paul Clements</h3>
+        </div>
+        <div class="col-md-6 col-sm-12" id="mediaicons">
+            <a href="#"><i class="fa fa-3x fa-facebook-official" aria-hidden="true" id="icon"></i></a> 
+            <a href="#"><i class="fa fa-3x fa-instagram" aria-hidden="true" id="icon"></i></a>
+            <a href="#"><i class="fa fa-3x fa-twitter-square" aria-hidden="true" id="icon"></i></a>
+        </div>
+    </footer>
+    <script src="js/quote.js"></script>
+</body>
+
+</html>
